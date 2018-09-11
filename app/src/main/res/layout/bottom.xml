@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#fdf8f8">
+
+    <LinearLayout
+        android:id="@+id/tab_cost"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/tabimg_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#0000"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:textColor="#161615"
+            android:text="消费一览"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_record"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/tabimg_record"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#0000"
+            android:src="@drawable/record" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:textColor="#161615"
+            android:text="记一笔"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_bill"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/tabimg_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#0000"
+            android:src="@drawable/bill" />
+
+        <TextView
+            android:textColor="#161615"
+            android:text="消费账单"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tab_report"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/tabimg_report"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#0000"
+            android:src="@drawable/report" />
+
+        <TextView
+            android:textColor="#161615"
+            android:text="消费报表"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+</LinearLayout>
